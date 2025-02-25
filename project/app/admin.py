@@ -3,3 +3,4 @@ from .models import ItemInfo
 # Register your models here.
 
 admin.site.register(ItemInfo)
+hellow  
