@@ -6,6 +6,8 @@ from .forms import ItemInfoForm
 import razorpay
 from django.views.decorators.csrf import csrf_exempt
 
+# hello................
+
 def home(request):
     if request.method=="POST":
         form = ItemInfoForm(request.POST,request.FILES)
